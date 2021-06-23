@@ -6,7 +6,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   
-  Widget widget = ElevatedButton(onPressed:()=> , child: );
+  Widget widget = ElevatedButton(onPressed:()=> null, child: Text(""));
   
   @override
   Widget build(BuildContext context) {
