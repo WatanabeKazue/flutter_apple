@@ -17,9 +17,10 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Column(
         children: <Widget>[
+
           Row(
             children: [
-              _soundButton//TODO  ボタン
+              Widget _soundButton()//TODO  ボタン
               //TODO  ボタン
             ],
           ),
@@ -39,7 +40,14 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
-  Widget _soundButton(){
+
+  Widget _soundButton() {
+  return ElevatedButton(
+    onPressed: ()=>null,
+                    child: Text(""),
+  );
+  }
 }
+  
 
 
